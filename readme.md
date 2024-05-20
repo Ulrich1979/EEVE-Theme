@@ -1,15 +1,19 @@
-# Portfolio--Recurring-CLONE
-Clone of the Wordpress Theme [Recurring](https://recurring.press75.com/) by [press75](https://press75.com)
+# Portfolio--AFFE-Theme
 
-## Major Issues
+Clone of the Sites of
+[AAVE](https://aave.com/)
+and [CERTORA](https://www.certora.com/)
 
-- I tried to copy the most possible of the original look&feel. 
-- The title image is replaced for courtesy
-- modifications were done to the mobile menu
-- inserted some more icons ([fontawesome](https://fontawesome.com/)) on buttons
+## Goals / Issues
+
+- bootstrap based (over CDN) [BOOTSTRAP](https://getbootstrap.com/)
+- as far as possible of the original look&feel. 
+- fonts/icons free, if necessary, replaced by free
+- images are replaced for courtesy reasons
+- quality to make Template/Website for sale
 
 ### Used Fonts
 
 (by [Google Fonts](https://fonts.google.com/) )
-- "Noto Serif"
-- "Poppins"
+- "Inter" (AAVE)
+- "Roboto" (CERTORA)
