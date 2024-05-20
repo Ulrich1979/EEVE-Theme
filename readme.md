@@ -1,8 +1,8 @@
 # Portfolio--EEVE-Theme
 
 Clone of the Sites of
-[AAVE](https://aave.com/)
-and [CERTORA](https://www.certora.com/)
+[AAVE.COM](https://aave.com/)
+and [CERTORA.COM](https://www.certora.com/)
 
 ## Goals / Issues
 
