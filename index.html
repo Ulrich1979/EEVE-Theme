@@ -1,202 +1,461 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>EEVE Theme</title>
     
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Recurring-CLONE</title>
-</head>
-<body>
-
-    <section id="head" class="flex">
-        <div class="logo"><img src="assets/cropped-Recurring-v2-1.png" alt="logo"></div>
-        <div id="nav-container" class="flex vert-center">
-<!--             <ul class="nav-list no-list-style" id="full-nav" -->
-            <ul class="desktop" id="full-nav">
-                <li class="nav-item lined-up"><a href="#">Home</a></li>
-                <li class="nav-item lined-up"><a href="#">Shop</a></li>
-                <li class="nav-item lined-up"><a href="#">Blog</a></li>
-                <li class="nav-item lined-up"><a href="#">Cart</a></li>
-                <li class="nav-item lined-up"><a href="#">Checkout</a></li>
-                <li class="nav-item lined-up"><a href="#">My Account</a></li>
-            </ul>
-            <a href="javascript:void(0);" class="icon" id="mobile-menu">
-                <i class="fa fa-bars"></i>
-            </a>
-
-        </div>
-    </section>
-
-    <section id="hero" class="bg-1 flex">
-        <div class="col">
-            <h5 class="subtitle">A SaaS Focused Theme</h5>
-            <h1>Make the world’s<br> best product</h1>
-            <p>Recurring comes together to blend the best of WordPress with the best of WooCommerce. Need to sell a digital product, easy. Need to create subscription-based recurring revenue, no problem.</p>
-            <div class="btn-group">
-                <button class="accent"><i class="fa-solid fa-rocket"></i>  Buy Now!</button>
-                <button class="background"><i class="fa-solid fa-circle-info"></i>  Learn More</button>
+    <body>
+        <header>
+            <img class="head-img" src="assets/csm_bg3_018b4294e9.jpg" alt="">
+            <div class="container">
+        
+                <!-- NAVBAR -->
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container g-0">
+                        <a class="navbar-brand" href="#">EEVE</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Protocol</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Governance</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Docs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Security</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">FAQ</a>
+                                </li>
+                            </ul>
+                        </div>
+                            <button class="btn btn-styled ms-3" type="button">Sign In</button>
+                    </div>
+                </nav>            
+            
             </div>
-        </div>
-        <div class="col no-grow">
-            <img class="shadowed" id="hero-img" src="assets/hero-image-space.jpg" alt="hero image">
-        </div>
-    </section>
+        </header>
+        
+        <main>
 
-    <section id="features" class="bg-2 flex">
-        <div class="col">
-            <h5 class="subtitle">Your Product’s Features</h5>
-            <h2>More than just a simple app.</h2>
-            <p>We’ve built a simple, yet beautiful WordPress theme for you to easily highlight your product, it’s features, and how it stands apart from other SaaS products. Use this space to showcase features.</p>
-        </div>
-        <div class="col">
-            <div class="feature-group grid">
-                <div class="feature-item">
-                    <img class="feature-icon" src="assets/feature-icon.png" alt="">
-                    <h3>Easy To Use, Powerful.</h3>
-                    <p>Quickly build a site that takes your visitors breathe away. Plus, it’s easy.</p>
+            <!-- HERO SECTION -->
+            <section id="hero">
+                <div class="container">
+                    <div class="row">
+                        <i class="mb-4 fg-1 fs-1 fa-solid fa-ghost"></i>
+                        <h3 class="mb-4 text-uppercase">EEVE: the Security Solution of your smart contracts.</h3>
+                        <h1>Earn interest, borrow assets, and build applications</h1>
+                    </div>
                 </div>
-                <div class="feature-item">
-                    <img class="feature-icon" src="assets/add-image-icon.png" alt="">
-                    <h3>Customizable. Check.</h3>
-                    <p>Easily customize the theme’s look, feel, colors, fonts, and more.</p>
+            </section>
+            
+            <!-- SLIDER SECTION -->
+            <section id="slider" class="bg-1">
+                <div class="container">
+                
+                    <div class="row">
+                        <div class="col">
+                            <p class="fs-1">$ 9,406,423,508.15</p>
+                            <p class="fg-1 fs-5">of liquidity is locked in Eeve across 6 networks and over 12 markets.</p>
+
+                        </div>
+                        <div class="col">
+                            <div id="carouselExampleCaptions" class="carousel slide">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="carousel-caption text-start d-none d-md-block">
+                                            <h5>Borrow</h5>
+                                            <p><i class="fa-solid fa-circle-info me-3"></i>Borrow against your collateral from across multiple networks and assets.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="carousel-caption text-start d-none d-md-block">
+                                            <h5></i>Stake</h5>
+                                            <p><i class="fa-solid fa-circle-info me-3"></i>Deposit your Aave into the protocol and earn rewards for securing the protocol.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <div class="carousel-caption text-start d-none d-md-block">
+                                            <h5></i>Vote</h5>
+                                            <p><i class="fa-solid fa-circle-info me-3"></i>Participate in Aave governance and vote on new proposals, new assets, and protocol upgrades.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    
+
                 </div>
-                <div class="feature-item">
-                    <img class="feature-icon" src="assets/logic-icon.png" alt="">
-                    <h3>Subscription Products.</h3>
-                    <p>Setup and sell your digital products or subscriptions using the theme and</p>
+            </section>
+            
+            <!-- MARKETS SECTION -->
+            <section id="markets" class="bg-1">
+                <div class="container">
+                    <h2>EEVE Markets</h2>
+                
+                    <div class="row row-cols-2 row-cols-lg-3 row-cols-xl-4 g-4">
+                        <div class="col">
+                            <div class="card border-0 bg-transparent h-100">
+                                <div class="mark-icon ms-3 my-4">
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title fg-1 fs-3">Ethereum</h5>
+                                    <p class="card-text fg-2 fs-6">Ethereum is a decentralized blockchain with smart contract functionality. Ether is the native cryptocurrency of the platform.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card border-0 bg-transparent  h-100">
+                                <div class="mark-icon ms-3 my-4">
+                                    <i class="fa-solid fa-landmark"></i>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title fg-1 fs-3">Avalanche</h5>
+                                    <p class="card-text fg-2 fs-6">Ethereum is a decentralized blockchain with smart contract functionality.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card border-0 bg-transparent  h-100">
+                                <div class="mark-icon ms-3 my-4">
+                                    <i class="fa-solid fa-droplet"></i>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title fg-1 fs-3">Polygon</h5>
+                                    <p class="card-text fg-2 fs-6">Ethereum is a decentralized blockchain with smart contract functionality. Ether is the native cryptocurrency of the platform. A natural lead-in to additional content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card border-0 bg-transparent  h-100">
+                                <div class="mark-icon ms-3 my-4">
+                                    <i class="fa-solid fa-fish"></i>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title fg-1 fs-3">Optimism</h5>
+                                    <p class="card-text fg-2 fs-6">Ethereum is a decentralized blockchain with smart contract functionality. Ether is the native cryptocurrency of the platform.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card border-0 bg-transparent  h-100">
+                                <div class="mark-icon ms-3 my-4">
+                                    <i class="fa-solid fa-circle-user"></i>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title fg-1 fs-3">Avalanche</h5>
+                                    <p class="card-text fg-2 fs-6">Ethereum is a decentralized blockchain with smart contract functionality.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card border-0 bg-transparent  h-100">
+                                <div class="mark-icon ms-3 my-4">
+                                    <i class="fa-solid fa-earth-americas"></i>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title fg-1 fs-3">Gnosis</h5>
+                                    <p class="card-text fg-2 fs-6">Ether is the native cryptocurrency of the platform. A natural lead-in to additional content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card border-0 bg-transparent  h-100">
+                                <div class="mark-icon ms-3 my-4">
+                                    <i class="fa-solid fa-paper-plane"></i>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title fg-1 fs-3">Arbitrum</h5>
+                                    <p class="card-text fg-2 fs-6">This smart contract functionality. Ether is the native cryptocurrency of the platform.</p>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+
                 </div>
-                <div class="feature-item">
-                    <img class="feature-icon" src="assets/email-icon.png" alt="">
-                    <h3>Send Emails to Customers.</h3>
-                    <p>Need to setup email reminders for your product’s subscription. No prob.</p>
+            </section>
+            
+            <!-- GOUVERNED SECTION -->
+            <section id="gouverned" class="bg-2">
+                <div class="container text-center">
+                    <h2 class="my-5">Gouverned by the community</h2>
+                    <p>Eeve is a fully decentralized, community governed protocol with 143,263 token holders.</p>
+                    <button type="button" class="btn btn-styled mb-5">Gouvernance Forum</button>
+                    <img class="middle-img blur" src="assets/abstract-svg-1.jpg" alt="">
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="product" class="bg-1 big-bottom flex">
-        <div class="col">
-            <img class="shadowed max-width-30" src="assets/product-priority.png" alt="">
-        </div>
-        <div class="col">
-            <h5 class="subtitle">This is a subtitle</h5>
-            <h2>Make your product a priority.</h2>
-            <p>By using the Onahau theme you can really make your digital or SaaS product the priority. It’s easy to highlight features. Create CTAs throughout, and drive conversions of your product. All directly on WooCommerce.</p>
-            <ul class="product-list">
-                <li>Showcase your product’s UI and UX with images</li>
-                <li>Create multiple products</li>
-                <li>Sell your product worldwide</li>
-            </ul>
-        </div>
-    </section>
-
-    <section id="payments" class="bg-2 big-bottom flex">
-        <div class="col">
-            <h5 class="subtitle">Another little highlight</h5>
-            <h2>Show off who uses your product and how to use it.</h2>
-            <p>Want to show off who uses your product? Need a little area to add some logos? Create a block with Recurring that lets you easily add text and images right next to each other.</p>
-            <ul class="payment-list no-list-style">
-                <li class="lined-up"><img src="assets/Samsung-Pay.png" alt="Samsung pay"></li>
-                <li class="lined-up"><img src="assets/PayPal.png" alt="PayPal"></li>
-                <li class="lined-up"><img src="assets/Apple-Pay.png" alt="Apple pay"></li>
-                <li class="lined-up"><img src="assets/Android-Pay.png" alt="Android pay"></li>
-            </ul>
-        </div>
-        <div class="col no-grow">
-            <img class="shadowed max-width-30" src="assets/email-signup-2.jpg" alt="">
-        </div>
-    </section>
-
-    <section id="pricing" class="bg-1 big-bottom">
-        <h5 class="subtitle">Easy Pricing Options</h5>
-        <h2>Set your prices. Collect your dough.</h2>
-        <p>Need monthly pricing—easy. Yearly pricing—no prob. Choose what your product costs and enter those details right here.</p>
-        <div class="price-list grid">
-                <div class="price-item">
-                    <h3>Free</h3>
-                    <p class="price">$ <span class="more">0 </span><span class="less">/month</span></p>
-                    <button class="accent"><i class="fa-solid fa-play"></i>  Get Started</button>
-                    <p>Features include:</p>
-                    <ul>
-                        <li class="price-feature-item">1 Seat</li>
-                        <li class="price-feature-item">1 active project</li>
-                        <li class="price-feature-item">Unlimited viewers</li>
-                        <li class="price-feature-item">10 Blocks</li>
-                    </ul>
+                <!-- FLIPPING CARDS -->
+                <div class="container text-center my-5">
+                    <h3 class="mb-4 text-uppercase">Showcase of our sites</h3>
+                    <p class="mb-4">Get to know all our flipping sites: localized, jet international.</p>
+                    
+                    <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-4">
+                        <div class="col">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img src="assets/pexels-pixabay-162539.jpg" alt="">
+                                    </div>
+                                    <div class="flip-card-back p-5">
+                                        <h5 class="card-title mb-4 fg-1 fs-3">Chrysler Building</h5>
+                                        <p class="card-text mb-4 fg-1 fs-6">Originally a project of real estate developer and former New York State Senator William H. Reynolds, the building was commissioned by Walter Chrysler. The Chrysler Building's distinction as the world's tallest building was short-lived. John Raskob realized the 1,050-foot Empire State Building would only be 4 feet in 2025.</p>
+                                        <a class="decent-link fg-1" href="#">Visit Chrysler<i class="ms-3 fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img src="assets/pexels-pixabay-273209.jpg" alt="">
+                                    </div>
+                                    <div class="flip-card-back p-5">
+                                        <h5 class="card-title mb-4 fg-1 fs-3">Grand Central Terminal</h5>
+                                        <p class="card-text mb-4 fg-1 fs-6">Grand Central Terminal was named by and for the New York Central Railroad, which built the station and its two predecessors on the site. It has "always been more colloquially and affectionately known as Grand Central Station", the name of its immediate predecessor in 2026.</p>
+                                        <a class="decent-link fg-1" href="#">Visit Grand Central<i class="ms-3 fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="flip-card">
+                                <div class="flip-card-inner">
+                                    <div class="flip-card-front">
+                                        <img src="assets/pexels-expect-best-79873-323705.jpg" alt="">
+                                    </div>
+                                    <div class="flip-card-back p-5">
+                                        <h5 class="card-title mb-4 fg-1 fs-3">Empire State Building</h5>
+                                        <p class="card-text mb-4 fg-1 fs-6">The site of the Empire State Building, on the west side of Fifth Avenue between West 33rd and 34th Streets, was developed in 1893 as the Waldorf–Astoria Hotel. In 1929, Empire State Inc. acquired the site and devised plans for a skyscraper there. The design for the Empire State Building was changed fifteen times in 2024.</p>
+                                        <a class="decent-link fg-1" href="#">Visit Empire State<i class="ms-3 fa-solid fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="price-item">
-                    <h3>Solo</h3>
-                    <p class="price">$ <span class="more">10 </span><span class="less">/month</span></p>
-                    <button class="accent"><i class="fa-solid fa-play"></i>  Get Started</button>
-                    <p>Features include:</p>
-                    <ul>
-                        <li class="price-feature-item">2 Seats</li>
-                        <li class="price-feature-item">2 active projects</li>
-                        <li class="price-feature-item">Unlimited viewers</li>
-                        <li class="price-feature-item">Unlimited Blocks</li>
-                        <li class="price-feature-item">CSV Support</li>
-                    </ul>
+            </section>
+            
+            <!-- HOWTO SECTION -->
+            <section id="howto" class="bg-1">
+                <div class="container text-center my-5">
+                    <h2 class="my-5">How it Works</h2>
+                    
+                    <div class="accordion text-start" id="accordionExample">
+                        <div class="accordion-item fg-2 bg-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button fg-1 bg-3" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                1: Submit Eeve Request for comment(RC)
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                                <div class="accordion-body fs-6 my-3">
+                                    <p>Discuss with community members and receive feedback. Discuss with community members and receive feedback. Discuss with community members and receive feedback. Discuss with community members and receive feedback. Discuss with community members and receive feedback.</p>
+                                    <a class="decent-link fg-1" href="#">Visit the Docs<i class="ms-3 fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item fg-2 bg-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button fg-1 bg-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    2: Create a Snapshot
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body fs-6 my-3">
+                                    <p>Gauge community sentiment on a new proposal through a Snapshot. Gauge community through a Snapshot. Gauge  sentiment on a new proposal and add a new proposal through a Snapshot. Promote your newly satisfying proposal through a Snapshot.</p>
+                                    <a class="decent-link fg-1" href="#">How to create a Snapshot<i class="ms-3 fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item fg-2 bg-3">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button fg-1 bg-3 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                3: Submit Eeve Request for improvement(RI)
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                <div class="accordion-body fs-6 my-3">
+                                    <p>The proposal is submitted through a GitHub pull request, and the community votes on approvals. The proposal is submitted through a GitHub pull request, and the community votes on approvals. The proposal is submitted through a GitHub pull request, and the community votes on approvals. The proposal is submitted through a GitHub pull request, and the community votes on approvals.</p>
+                                    <a class="decent-link fg-1" href="#">Visit Github<i class="ms-3 fa-solid fa-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="price-item">
-                    <h3>Team</h3>
-                    <p class="price">$ <span class="more">25 </span><span class="less">/month</span></p>
-                    <button class="accent"><i class="fa-solid fa-play"></i>  Get Started</button>
-                    <p>Features include:</p>
-                    <ul>
-                        <li class="price-feature-item">8 Seats</li>
-                        <li class="price-feature-item">10 active projects</li>
-                        <li class="price-feature-item">Unlimited viewers</li>
-                        <li class="price-feature-item">Unlimited Blocks</li>
-                        <li class="price-feature-item">Customization</li>
-                        <li class="price-feature-item">Team management</li>
-                    </ul>
+            </section>
+                
+            <!-- INFORMATION SECTION -->
+            <section id="information" class="bg-1">
+                <div class="container">
+                    <h2 class="my-5">Information Center</h2>
+
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div id="info-card-1" class="card bg-transparent border-0 h-100">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title mb-4 fg-1 fs-3">Publish now</h5>
+                                    <p class="card-text mb-4 fg-1 fs-6">We want the Eeve protocol to be the best it can be, so we are calling on our community to help us find any bugs or vulnerabilities. Submit a bug here through our community driven bug bounty program on Immunefi.</p>
+                                    <a href="#" class="btn btn-styled">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div id="info-card-2" class="card bg-transparent border-0 h-100">
+                                <div class="card-body p-4">
+                                    <h5 class="card-title mb-4 fg-1 fs-3">Bugfix it later</h5>
+                                    <p class="card-text mb-4 fg-1 fs-6">The Eeve protocol is secured with a safe backstop for protocol insolvency. The protocol is currently secured with $ 263,211,979 worth of Eeve tokens.</p>
+                                    <a href="#" class="btn btn-styled">Learn more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-        </div>
-    </section>
+            </section>
 
-    <section id="contact" class="bg-2 big-bottom">
-        <h5 class="subtitle">Get your theme on</h5>
-        <h2>Bring your product to life.</h2>
-        <p>With big featured blocks like this one, you can easily create a nice call-to-action wherever you need one.</p>
-        <button class="accent"><i class="fa-solid fa-play"></i>  Get Started Today</button>
-    </section>
+            <!-- SIGNUP SECTION -->
+            <section id="signup" class="bg-1">
+                <div class="container col-md-6">
+                    <form action="action_page.php">
+                        <h2>Sign Up</h2>
+                        <p>Please fill in this form to create an account.</p>
+                        
+                        <div class="form-row">
+                            <div class="form-group mb-3">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" placeholder="Email" name="email" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="password">Password</label>
+                                <input type="password" class="form-control" placeholder="Password" name="email" required>
+                            </div>
+                            <div class="form-group mb-3">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label" for="gridCheck">Remember Me</label>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-styled mx-auto">Sign Up</button>
+                    </form>
+                </div>
+            </section>
 
-    <section id="foot" class="bg-3 big-bottom grid">
-        <div class="logo">
-            <h3>Recurring</h3>
-        </div>
-        <div class="col">
-            <p>This Theme was made with, in a rush of modelism and style - feel free to comment.</p>
-        </div>
-        <div class="col">
-            <ul class="link-list no-list-style">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Cart</a></li>
-                <li><a href="#">Checkout</a></li>
-                <li><a href="#">My Account</a></li>
-            </ul>
-        </div>
-        <div class="col">
-            <ul class="link-list no-list-style">
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">LinkedIn</a></li>
-            </ul>
-        </div>
-    </section>
+        </main>
 
-    <script src="script.js"></script>
-    
+        <footer>
+            
+            <!-- FOOTER 1: Navigation -->
+            <section id="footer-top" class="bg-2">
+                <div class="container">
+                    <!-- NAVBAR -->
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <div class="container g-0">
+                            <a class="navbar-brand" href="#">EEVE</a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Protocol</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Governance</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Docs</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Security</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">FAQ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                                <button class="btn btn-nav me-2" type="button">Sign In</button>
+                        </div>
+                    </nav>            
+                </div>
+            </section>
+            
+            <!-- FOOTER 1: Navigation -->
+            <section id="footer-bottom" class="bg-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h3>Meet us on Socials</h3>
+                        </div>
+                        <div class="col">
+                            <ul>
+                                <li><a>Technical Paper</a></li>
+                                <li><a>Bug Bounty</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul>
+                                <li><a>Branding</a></li>
+                                <li><a>Blog</a></li>
+                            </ul>
+                        </div>
+                        <div class="col">
+                            <ul>
+                                <li><a>Privacy</a></li>
+                                <li><a>Terms of Use</a></li>
+                                <li><a>Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </footer>
 
-</body>
+
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    </body>
+
 </html>
