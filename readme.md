@@ -1,5 +1,6 @@
 # Portfolio--EEVE-Theme
 
+Working title: **EEVE**
 Clone of the Sites of
 [AAVE.COM](https://aave.com/)
 and [CERTORA.COM](https://www.certora.com/)
@@ -12,8 +13,11 @@ and [CERTORA.COM](https://www.certora.com/)
 - images are replaced for courtesy reasons
 - quality to make Template/Website for sale
 
-### Used Fonts
+### Sources
 
-(by [Google Fonts](https://fonts.google.com/) )
+Fonts by [Google Fonts](https://fonts.google.com/):
 - "Inter" (AAVE)
 - "Roboto" (CERTORA)
+
+- Icons: [fontawesome](https://fontawesome.com/) 
+- Images: [Pexels](https://www.pexels.com/de-de/)
